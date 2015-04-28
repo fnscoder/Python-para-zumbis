@@ -16,4 +16,8 @@ while q >= i:
         q /= i
         d.append(i)
     i += 1
-print('Fatoração de %d é: ' %n + str(d))
+print('Fatoração de %d é: ' %n)
+
+for item in d:
+    print('Fator: %d Multiplicidade: %d' %(item, d.count(item)))
+
